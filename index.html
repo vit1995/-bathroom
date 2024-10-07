@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 1;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20241008011023">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="120" data-scroll-show class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+
+				<a href="#" class="header__logo"> <picture><source data-srcset="img/header/logo.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/header/logo.png" alt="#"></picture> </a>
+				<div data-da=".menu__body, 500,1" class="header__text"><strong>Реставрация ванн в СПб и ЛО</strong>
+					48 000 ванн за 14 лет работы</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Наши услуги</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Виды реставрации</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Наши работы</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Цены</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__body, 768" class="header__clock">
+					09.00 - 21.00
+					без выходных
+				</div>
+				<div class="header__number number-header">
+					<a class="number-header__link " href="tel:88129883285"><i class="icon-mobile"></i>8 (812) 988-32-85</a>
+					<a data-popup="#popup" class="number-header__button" href="#">Заказать звонок</a>
+				</div>
+			</div>
+		</header>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close"><svg width="30" height="30" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z" fill="#000"></path>
+						</svg></button>
+					<h2 class="popup__title">Оставьте заявку и мы свяжемся с вами в течение 5 минут</h2>
+					<form class="popup__form-body" action="files/sendmail/sendmail.php" method="POST">
+						<input type="text" name="form[name]" data-error="Error" placeholder="Ваше имя" class="popup__input input">
+						<input id="phone" type="text" name="form[name]" data-error="Error" placeholder="Ваш телефон" class="popup__input input">
+						<button type="submit" class="popup__button button">отправить</button>
+
+					</form>
+					<p class="popup__politicy">Нажимая на кнопку вы принимаете политику конфиденциальности</p>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="page__hero hero">
+				<!-- Оболонка слайдера -->
+				<div class="hero__slider swiper">
+					<!-- Частина слайдера, що рухається -->
+					<div class="hero__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="hero__slide swiper-slide">
+							<div class="hero__container">
+								<div class="hero__items">
+									<a href="tel:+79217799020" class="hero__number"> <i class="icon-phone"></i>+7 921
+										779-90-20</a>
+									<div data-swiper-parallax="-300" class="hero__slide-subtitle ">Продлите жизнь вашей ванне уже
+										сегодня!</div>
+									<h1 data-swiper-parallax="-200" class="hero__slide-title">Реставрация и ремонт ванн в СПб и
+										области</h1>
+									<p data-swiper-parallax="-100" class="hero__slide-text">Гарантия от <span>5</span> лет!</p>
+									<!-- <a href="#" class="hero__slide-button">
+												<i class="hero__slide-icon ri-customer-service-fill me-2"></i>
+												<span>Задать вопрос специалисту</span>
+											</a> -->
+								</div>
+								<picture><source srcset="img/slider-hero/01.webp" type="image/webp"><img class="hero__slide-img" src="img/slider-hero/01.png" alt="#"></picture>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<div class="hero__container">
+								<div class="hero__items">
+									<a href="tel:+79217799020" class="hero__number"> <i class="icon-phone"></i>+7 921
+										779-90-20</a>
+
+									<div data-swiper-parallax="-300" class="hero__slide-subtitle">Продлите жизнь вашей ванне уже
+										сегодня!</div>
+									<h1 data-swiper-parallax="-200" class="hero__slide-title">Реставрация и ремонт ванн в СПб и
+										области</h1>
+									<p data-swiper-parallax="-100" class="hero__slide-text">Гарантия от <span>5</span> лет!</p>
+									<!-- <a href="#" class="hero__slide-button">
+												<i class="hero__slide-icon ri-customer-service-fill me-2"></i>
+												<span>Задать вопрос специалисту</span>
+											</a> -->
+								</div>
+								<picture><source srcset="img/slider-hero/02.webp" type="image/webp"><img class="hero__slide-img" src="img/slider-hero/02.png" alt="#"></picture>
+
+							</div>
+						</div>
+					</div>
+					<div class="hero__pagination swiper-pagination "></div>
+				</div>
+				<div class="hero__bottom bottom-hero">
+					<div class="bottom-hero__container">
+						<p class="bottom-hero__colum-one">Восстановим:</p>
+						<ul data-watch class="bottom-hero__list">
+							<li class="bottom-hero__colum">
+								<p>стальные ванны</p> <span>от <a data-digits-counter>4700</a></span>
+							</li>
+							<li class="bottom-hero__colum">
+								<p>ванны джакузи</p> <span>от<a data-digits-counter> 6190</a></span>
+							</li>
+							<li class="bottom-hero__colum">
+								<p>акриловые ванны</p> <span>от <a data-digits-counter>6190</a></span>
+							</li>
+							<li class="bottom-hero__colum">
+								<p>чугунные ванны</p> <span>от <a data-digits-counter>4700</a></span>
+							</li>
+
+						</ul>
+
+
+						<form class="bottom-hero__colum-form" action="files/sendmail/sendmail.php" method="POST">
+							<input id="phone" type="text" name="form[tel]" data-error="Error" placeholder="Введите номер телефона *" class="bottom-hero__colum-input  ">
+							<button type="submit" class="bottom-hero__colum-button button">Хочу подробную консультацию</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="page__price price">
+				<div class="price__container">
+					<h2 class="price__title">Цены на реставрацию ванны в Санкт-Петербурге</h2>
+					<div class="price__text">Если вы ищете самую низкую цену — будьте аккуратны, после получения заказа у вас
+						дома смета «раздувается» по известной схеме, порой в 2 или 3 раза, а результат — вот такой. С нами вы
+						можете рассчитывать на уважительное отношение и одинаковую цену реставрации от звонка до готовой
+						ванны.</div>
+					<div data-watch class="price__body">
+						<article class="price__colum colum-price">
+							<picture><source srcset="img/price/01.webp" type="image/webp"><img class="colum-price__img" src="img/price/01.webp" alt="#"></picture>
+							<h3 class="colum-price__title">Акриловый вкладыш</h3>
+							<h4 class="colum-price__subtitle">для чугунных и стальных ванн с глубокими повреждениями</h4>
+							<div class="colum-price__decor">
+								<div class="colum-price__line"></div>
+								<div class="colum-price__icon"><picture><source srcset="img/price/icon/01.webp" type="image/webp"><img src="img/price/icon/01.png" alt="#"></picture></div>
+							</div>
+							<div class="colum-price__material">Материал: санитарный акрил Gebau</div>
+							<div class="colum-price__brand">Бренды: ИсКомп Полисант</div>
+							<div class="colum-price__characteristic characteristic-price">
+								<h6 class="characteristic-price__title">Характеристики:</h6>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">служит 3-5 лет</div>
+									<div class="characteristic-price__line characteristic-price__line--one"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">толщина 0.5мм</div>
+									<div class="characteristic-price__line characteristic-price__line--two"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">гарантия 1 год</div>
+									<div class="characteristic-price__line characteristic-price__line--trea"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">высыхает 24 часа.</div>
+									<div class="characteristic-price__line characteristic-price__line--fo"></div>
+								</div>
+							</div>
+							<div class="colum-price__option-body">
+								<div class="colum-price__option-text">2 варианта для ванн разной длины</div>
+								<div class="colum-price__number">от <span data-digits-counter>7300</span></div>
+							</div>
+							<div class="colum-price__buttons">
+								<a class="colum-price__button" href="#">
+									<span>Подробнее</span>
+								</a>
+								<a data-popup="#popup" class="colum-price__button colum-price__button--orange" href="#"><span>Вызвать
+										мастера</span></a>
+							</div>
+						</article>
+						<article class="price__colum colum-price colum-price-popular ">
+							<picture><source srcset="img/price/02.webp" type="image/webp"><img class="colum-price__img" src="img/price/02.webp" alt="#"></picture>
+
+							<div class="colum-price__popular">популярный выбор!</div>
+							<h3 class="colum-price__title colum-price__title--popular">Акриловый вкладыш</h3>
+							<h4 class="colum-price__subtitle colum-price__subtitle--popular">для чугунных и стальных ванн с
+								глубокими повреждениями</h4>
+							<div class="colum-price__decor">
+								<div class="colum-price__line colum-price__line--popular"></div>
+								<div class="colum-price__icon"><picture><source srcset="img/price/icon/02.webp" type="image/webp"><img src="img/price/icon/02.png" alt="#"></picture></div>
+							</div>
+							<div class="colum-price__material colum-price__material--popular"><span>Материал:</span> санитарный
+								акрил Gebau</div>
+							<div class="colum-price__brand colum-price__brand--popular"><span>Бренды:</span> ИсКомп Полисант
+							</div>
+							<div class="colum-price__characteristic characteristic-price">
+								<h6 class="characteristic-price__title characteristic-price__title--popular">Характеристики:
+								</h6>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data characteristic-price__data--popular">служит 3-5 лет
+									</div>
+									<div class="characteristic-price__line characteristic-price__line--one"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data characteristic-price__data--popular">толщина 0.5мм
+									</div>
+									<div class="characteristic-price__line characteristic-price__line--two"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data characteristic-price__data--popular">гарантия 1 год
+									</div>
+									<div class="characteristic-price__line characteristic-price__line--trea"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data characteristic-price__data--popular">высыхает 24 часа.
+									</div>
+									<div class="characteristic-price__line characteristic-price__line--fo"></div>
+								</div>
+							</div>
+							<div class="colum-price__option-body">
+								<div class="colum-price__option-text colum-price__option-text--popular">2 варианта для ванн
+									разной длины</div>
+								<div class="colum-price__number colum-price__number--popular">от <span data-digits-counter>7300</span></div>
+							</div>
+							<div class="colum-price__buttons">
+								<a class="colum-price__button colum-price__button--popular" href="#">
+									<span>Подробнее</span>
+								</a>
+								<a data-popup="#popup" class="colum-price__button colum-price__button--orange" href="#"><span>Вызвать
+										мастера</span></a>
+							</div>
+						</article>
+						<article class="price__colum colum-price colum-price-last">
+							<picture><source srcset="img/price/03.webp" type="image/webp"><img class="colum-price__img" src="img/price/03.webp" alt="#"></picture>
+
+							<h3 class="colum-price__title">Акриловый вкладыш</h3>
+							<h4 class="colum-price__subtitle">для чугунных и стальных ванн с глубокими повреждениями</h4>
+							<div class="colum-price__decor">
+								<div class="colum-price__line"></div>
+								<div class="colum-price__icon"><picture><source srcset="img/price/icon/03.webp" type="image/webp"><img src="img/price/icon/03.png" alt="#"></picture></div>
+							</div>
+							<div class="colum-price__material">Материал: санитарный акрил Gebau</div>
+							<div class="colum-price__brand">Бренды: ИсКомп Полисант</div>
+							<div class="colum-price__characteristic characteristic-price">
+								<h6 class="characteristic-price__title">Характеристики:</h6>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">служит 3-5 лет</div>
+									<div class="characteristic-price__line characteristic-price__line--one"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">толщина 0.5мм</div>
+									<div class="characteristic-price__line characteristic-price__line--one"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">гарантия 1 год</div>
+									<div class="characteristic-price__line characteristic-price__line--trea"></div>
+								</div>
+								<div class="characteristic-price__items">
+									<div class="characteristic-price__data">высыхает 24 часа.</div>
+									<div class="characteristic-price__line characteristic-price__line--fo"></div>
+								</div>
+							</div>
+							<div class="colum-price__option-body">
+								<div class="colum-price__option-text">2 варианта для ванн разной длины</div>
+								<div class="colum-price__number">от <span data-digits-counter>7300</span></div>
+							</div>
+							<div class="colum-price__buttons">
+								<a class="colum-price__button" href="#">
+									<span>Подробнее</span>
+								</a>
+								<a data-popup="#popup" class="colum-price__button colum-price__button--orange" href="#"><span>Вызвать
+										мастера</span></a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<div class="advantages__title">Преимущества технологии реставрации ванн</div>
+					<div class="advantages__body">
+						<div class="advantages__left">
+							<div class="advantages__items">
+								<div class="advantages__icon"><img src="img/advantages/02.svg" alt="#"></div>
+								<div class="advantages__text">Срок службы
+									15-20 лет!</div>
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__icon"><img src="img/advantages/03.svg" alt="#"></div>
+								<div class="advantages__text">Не впитывает грязь и ржавчину</div>
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__icon"><img src="img/advantages/04.svg" alt="#"></div>
+								<div class="advantages__text">Вода соxраняет температуру в 6 раз дольше</div>
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__icon"><img src="img/advantages/05.svg" alt="#"></div>
+								<div class="advantages__text">Ванна обретает идеально ровную поверхность</div>
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__icon"><img src="img/advantages/06.svg" alt="#"></div>
+								<div class="advantages__text">Можно использовать для любых размеров ванны!</div>
+							</div>
+						</div>
+						<div class="advantages__center">
+							<picture><source srcset="img/advantages/01.webp" type="image/webp"><img src="img/advantages/01.png" alt="#"></picture>
+						</div>
+						<div class="advantages__right">
+							<div class="advantages__items">
+								<div class="advantages__text">Устойчива к ударам и появлению трещин</div>
+								<div class="advantages__icon"><img src="img/advantages/07.svg" alt="#"></div>
+
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__text">Не темнеет со временем</div>
+								<div class="advantages__icon"><img src="img/advantages/08.svg" alt="#"></div>
+
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__text">Обладает антибактериальными свойствами</div>
+								<div class="advantages__icon"><img src="img/advantages/09.svg" alt="#"></div>
+
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__text">Не имеет запаха
+									при высыхании</div>
+								<div class="advantages__icon"><img src="img/advantages/10.svg" alt="#"></div>
+
+							</div>
+							<div class="advantages__items">
+								<div class="advantages__text">Используются немецкие компоненты</div>
+								<div class="advantages__icon"><img src="img/advantages/11.svg" alt="#"></div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__surcharges surcharges">
+				<div class="surcharges__container">
+					<div class="surcharges__content">
+						<h2 class="surcharges__title">Могут ли возникнуть непредвиденные доплаты?</h2>
+						<div class="surcharges__text">
+							<p>Практически исключено. Есть два вида дополнительных услуг, без которых выполнить работу
+								качественно будет невозможно – демонтаж акрила или вкладыша (то есть, если ванна уже
+								реставрировалась; кстати, если красили эмалью, снимаем бесплатно), и если нужно заменить
+								неисправную или устаревшую сливную систему.</p>
+							<span>Но эта информация не застанет вас врасплох - все, что может повлиять на увеличение стоимости,
+								мы обсудим с вами во время телефонной консультации.</span>
+						</div>
+					</div>
+					<div class="surcharges__services services-surcharges">
+						<h3 class="services-surcharges__title">Другие услуги</h3>
+						<ul class="services-surcharges__list">
+							<li class="services-surcharges__link">
+								Герметизация стыков — от 1300
+							</li>
+							<li class="services-surcharges__link">
+								Демонтаж вкладыша — 1500
+							</li>
+							<li class="services-surcharges__link">
+								Замена обвязки — 2800
+							</li>
+							<li class="services-surcharges__link">
+								Наливной уголок — 900
+							</li>
+							<li class="services-surcharges__link">
+								Демонтаж акрилового покрытия — 1500
+							</li>
+							<li class="services-surcharges__link">
+								Придать покрытию оттенок — 500
+							</li>
+						</ul>
+						<a class="services-surcharges__look" href="#">Смотреть все >></a>
+					</div>
+
+				</div>
+			</section>
+			<section class="page__examples examples">
+				<div class="examples__container">
+					<h2 class="examples__title">Примеры наших работ</h2>
+					<div class="examples__body">
+						<div class="examples__items">
+							<h3 class="examples__subtitle">Реставрация ванны жидким акрилом</h3>
+							<div class="slider">
+								<div class="before">
+									<picture><source srcset="img/slider/before/1.webp" type="image/webp"><img src="img/slider/before/1.jpg" alt="#"></picture>
+
+								</div>
+								<div class="after">
+									<picture><source srcset="img/slider/after/01.webp" type="image/webp"><img src="img/slider/after/01.jpg" alt="#"></picture>
+
+								</div>
+
+
+								<!-- <div class="change">
+									<div class="circle"> <span class="change-left-arrow"></span><span
+											class="change-right-arrow"></span></div>
+								</div> -->
+								<div class="change">
+									<span class="change-left-arrow"></span>
+									<span class="change-right-arrow"></span>
+								</div>
+							</div>
+							<div class="examples__price">
+								<p>Стоимость</p><span>6300 руб.</span>
+							</div>
+							<div class="examples__time">
+								<p>Время работы</p><span>2 часа 30 минут
+								</span>
+							</div>
+						</div>
+						<div class="examples__items">
+							<h3 class="examples__subtitle">Реставрация ванны литьевым мрамором</h3>
+							<div class="slider">
+								<div class="before">
+									<picture><source srcset="img/slider/before/02.webp" type="image/webp"><img src="img/slider/before/02.jpg" alt="#"></picture>
+								</div>
+								<div class="after">
+									<picture><source srcset="img/slider/after/02.webp" type="image/webp"><img src="img/slider/after/02.jpg" alt="#"></picture>
+								</div>
+								<!-- <div class="change">
+									<div class="circle"> <span class="change-left-arrow"></span><span
+											class="change-right-arrow"></span></div>
+								</div> -->
+								<div class="change">
+									<span class="change-left-arrow"></span>
+									<span class="change-right-arrow"></span>
+								</div>
+							</div>
+							<div class="examples__price">
+								<p>Стоимость</p><span>6300 руб.</span>
+							</div>
+							<div class="examples__time">
+								<p>Время работы</p><span>2 часа 30 минут
+								</span>
+							</div>
+						</div>
+						<div class="examples__items">
+							<h3 class="examples__subtitle">Реставрация ванны жидким акрилом</h3>
+							<div class="slider">
+								<div class="before">
+									<picture><source srcset="img/slider/before/1.webp" type="image/webp"><img src="img/slider/before/1.jpg" alt="#"></picture>
+								</div>
+								<div class="after">
+									<picture><source srcset="img/slider/after/01.webp" type="image/webp"><img src="img/slider/after/01.jpg" alt="#"></picture>
+								</div>
+								<!-- <div class="change">
+									<div class="circle"> <span class="change-left-arrow"></span><span
+											class="change-right-arrow"></span></div>
+								</div> -->
+								<div class="change">
+									<span class="change-left-arrow"></span>
+									<span class="change-right-arrow"></span>
+								</div>
+							</div>
+							<div class="examples__price">
+								<p>Стоимость</p><span>6300 руб.</span>
+							</div>
+							<div class="examples__time">
+								<p>Время работы</p><span>2 часа 30 минут
+								</span>
+							</div>
+						</div>
+						<div class="examples__items">
+							<h3 class="examples__subtitle">Реставрация ванны литьевым мрамором</h3>
+							<div class="slider">
+								<div class="before">
+									<picture><source srcset="img/slider/before/02.webp" type="image/webp"><img src="img/slider/before/02.jpg" alt="#"></picture>
+								</div>
+								<div class="after">
+									<picture><source srcset="img/slider/after/02.webp" type="image/webp"><img src="img/slider/after/02.jpg" alt="#"></picture>
+								</div>
+								<!-- <div class="change">
+									<div class="circle"> <span class="change-left-arrow"></span><span
+											class="change-right-arrow"></span></div>
+								</div> -->
+								<div class="change">
+									<span class="change-left-arrow"></span>
+									<span class="change-right-arrow"></span>
+								</div>
+							</div>
+							<div class="examples__price">
+								<p>Стоимость</p><span>6300 руб.</span>
+							</div>
+							<div class="examples__time">
+								<p>Время работы</p><span>2 часа 30 минут
+								</span>
+							</div>
+						</div>
+						<div class="examples__items">
+							<h3 class="examples__subtitle">Реставрация ванны жидким акрилом</h3>
+							<div class="slider">
+								<div class="before">
+									<picture><source srcset="img/slider/before/1.webp" type="image/webp"><img src="img/slider/before/1.jpg" alt="#"></picture>
+								</div>
+								<div class="after">
+									<picture><source srcset="img/slider/after/01.webp" type="image/webp"><img src="img/slider/after/01.jpg" alt="#"></picture>
+								</div>
+								<!-- <div class="change">
+									<div class="circle"> <span class="change-left-arrow"></span><span
+											class="change-right-arrow"></span></div>
+								</div> -->
+								<div class="change">
+									<span class="change-left-arrow"></span>
+									<span class="change-right-arrow"></span>
+								</div>
+							</div>
+							<div class="examples__price">
+								<p>Стоимость</p><span>6300 руб.</span>
+							</div>
+							<div class="examples__time">
+								<p>Время работы</p><span>2 часа 30 минут
+								</span>
+							</div>
+						</div>
+						<div class="examples__items">
+							<h3 class="examples__subtitle">Реставрация ванны жидким акрилом</h3>
+							<div class="slider">
+								<div class="before">
+									<picture><source srcset="img/slider/before/1.webp" type="image/webp"><img src="img/slider/before/1.jpg" alt="#"></picture>
+								</div>
+								<div class="after">
+									<picture><source srcset="img/slider/after/01.webp" type="image/webp"><img src="img/slider/after/01.jpg" alt="#"></picture>
+								</div>
+								<!-- <div class="change">
+									<div class="circle"> <span class="change-left-arrow"></span><span
+											class="change-right-arrow"></span></div>
+								</div> -->
+								<div class="change">
+									<span class="change-left-arrow"></span>
+									<span class="change-right-arrow"></span>
+								</div>
+							</div>
+							<div class="examples__price">
+								<p>Стоимость</p><span>6300 руб.</span>
+							</div>
+							<div class="examples__time">
+								<p>Время работы</p><span>2 часа 30 минут
+								</span>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+			<section class="page__company company ">
+				<div class="company__container">
+					<h2 class="company__title">О компании <span>«1001 Ванна»</span></h2>
+					<div class="company__subtitle">Узнайте больше о нашей деятельности, условиях гарантийного обслуживания,
+						почитайте отзывы клиентов и ознакомьтесь сертификатами на все используемые материалы</div>
+					<div data-tabs data-tabs-animate="1000" class="company__tabs tabs-company tabs ">
+						<nav data-tabs-titles class="tabs-company__navigation tabs__navigation">
+							<button type="button" class="tabs-company__title tabs__title _tab-active">
+								<i class="icon-envelope"></i>
+							</button>
+							<button type="button" class="tabs-company__title tabs__title">
+								<i class="icon-photo"></i>
+							</button>
+							<button type="button" class="tabs-company__title tabs__title"><i class="icon-file-text"></i></button>
+							<button type="button" class="tabs-company__title tabs__title">
+								<i class="icon-pencil-square-o"></i>
+							</button>
+							<button type="button" class="tabs-company__title tabs__title">
+								<i class="icon-bar-chart"></i>
+							</button>
+						</nav>
+						<div data-tabs-body class="tabs-company__content tabs__content">
+							<div class=" tabs-company__body  ">
+								<!-- Оболонка слайдера -->
+								<div class="tabs-company__wrapper tabs-company__wrapper--reviews tab">
+
+									<div class="tab__slider swiper">
+										<!-- Частина слайдера, що рухається -->
+										<div class="tab-swiper-button-body">
+											<div type="button" class="tab-swiper-button-prev   swiper-button-prev"></div>
+											<div type="button" class="tab-swiper-button-next  swiper-button-next"></div>
+										</div>
+										<div class="tab__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tab__slide swiper-slide slide-tab">
+												<div class="slide-tab__top">
+													<time class="slide-tab__time" datetime="2016-10-28"> Дата: 28.10.2016 </time>
+													<div class="slide-tab__review">Отзыв оставил(а): Татьяна</div>
+													<div class="slide-tab__addres">г. СПБ Невский район ул.Народная дом 53 1 86
+													</div>
+												</div>
+												<p class="slide-tab__text">
+													спасибо Антону за обновленную ванну, большой специалист! очень приятен и мастер и
+													плоды его труда, ванна как-будто не моя, совершенно новая!!! </p>
+												<a href="#" class="slide-tab__link">Читать больше отзывов</a>
+
+
+
+											</div>
+											<div class="tab__slide swiper-slide slide-tab">
+												<div class="slide-tab__top">
+													<time class="slide-tab__time" datetime="2016-10-28"> Дата: 28.10.2016 </time>
+													<div class="slide-tab__review">Отзыв оставил(а): Татьяна</div>
+													<div class="slide-tab__addres">г. СПБ Невский район ул.Народная дом 53 1 86
+													</div>
+												</div>
+												<p class="slide-tab__text">
+													спасибо Антону за обновленную ванну, большой специалист! очень приятен и мастер и
+													плоды его труда, ванна как-будто не моя, совершенно новая!!! </p>
+												<a href="#" class="slide-tab__link">Читать больше отзывов</a>
+
+
+
+											</div>
+										</div>
+
+										<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+
+
+
+									</div>
+									<div class="tab__slider-rights rights-tab-slider">
+										<picture><source data-srcset="img/tabs/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="rights-tab-slider__img" data-src="img/tabs/01.jpg" alt="#"></picture>
+										<h4 class="rights-tab-slider__title">Прочитайте отзывы о нас</h4>
+										<p class="rights-tab-slider__text">Восторженные похвалы Елизаветы Григорьевны 1943 года
+											рождения, написанные девочкой оператором за небольшую доплату – не наш путь. Мы готовы
+											к
+											конструктивному диалогу и публикуем все отзывы без правок и модерации.</p>
+									</div>
+								</div>
+
+							</div>
+							<div class="tabs-company__body  ">
+								<!-- Оболонка слайдера -->
+								<div class="tabs-company__wrapper tab-foto">
+									<div class="tab-foto__content">
+										<h5 class="tab-foto__title">Ванны <span>через несколько лет</span> после реставрации</h5>
+										<p class="tab-foto__text">На самом деле все ванны сразу после обновления выглядят хорошо.
+											Ваша <strong>ванна через 3-5 лет</strong> после процедуры восстановления – вот
+											настоящий показатель нашей работы.</p>
+									</div>
+									<div data-gallery class="tab-foto__gallery gallery">
+										<a href="img/tabs/tab-two/01.jpg" class="tab-foto__img gallery__image">
+											<picture><source srcset="img/tabs/tab-two/01.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-two/01.jpg" class="tab-foto__preview gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-two/02.jpg" class="tab-foto__img gallery__image">
+											<picture><source srcset="img/tabs/tab-two/02.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-two/02.jpg" class="tab-foto__preview gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-two/03.jpg" class="tab-foto__img gallery__image">
+											<picture><source srcset="img/tabs/tab-two/03.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-two/03.jpg" class="tab-foto__preview gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-two/04.jpg" class="tab-foto__img gallery__image">
+											<picture><source srcset="img/tabs/tab-two/04.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-two/04.jpg" class="tab-foto__preview gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-two/05.jpg" class="tab-foto__img gallery__image">
+											<picture><source srcset="img/tabs/tab-two/05.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-two/05.jpg" class="tab-foto__preview gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-two/06.jpg" class="tab-foto__img gallery__image">
+											<picture><source srcset="img/tabs/tab-two/06.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-two/06.jpg" class="tab-foto__preview gallery__preview"></picture>
+										</a>
+
+									</div>
+
+								</div>
+
+							</div>
+							<div class="tabs-company__body">
+								<div class="tabs-company__wrapper tab-certificates">
+									<h6 class="tab-certificates__subtitle">Гигиенические сертификаты, свидетельства о
+										государственной регистрации, медицинские заключения на используемые материалы.</h6>
+									<div data-gallery class="tab-certificates__gallery gallery ">
+										<a href="img/tabs/tab-three/01.jpg" class="tab-certificates__img gallery__image">
+											<picture><source srcset="img/tabs/tab-three/01.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-three/01.jpg" class="tab-foto__certificates gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-three/02.jpg" class="tab-certificates__img gallery__image">
+											<picture><source srcset="img/tabs/tab-three/02.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-three/02.jpg" class="tab-foto__certificates gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-three/03.jpg" class="tab-certificates__img gallery__image">
+											<picture><source srcset="img/tabs/tab-three/03.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-three/03.jpg" class="tab-foto__certificates gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-three/04.jpg" class="tab-certificates__img gallery__image">
+											<picture><source srcset="img/tabs/tab-three/04.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-three/04.jpg" class="tab-foto__certificates gallery__preview"></picture>
+										</a>
+										<a href="img/tabs/tab-three/05.jpg" class="tab-certificates__img gallery__image">
+											<picture><source srcset="img/tabs/tab-three/05.webp" type="image/webp"><img alt="Превью" src="img/tabs/tab-three/05.jpg" class="tab-foto__certificates gallery__preview"></picture>
+										</a>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="tabs-company__body">
+								<div class="tabs-company__wrapper tab-guarantee">
+									<div class="tab-guarantee__left left-guarantee">
+										<h6 class="left-guarantee__title">Тройная гарантия</h6>
+										<div class="left-guarantee__subtitle">защищает вас от любых рисков.</div>
+										<div class="left-guarantee__text">За время работы мы обработали
+											<span>477</span> гарантийных заявок,
+											<span>470</span> из которых исправлены бесплатно согласно условиям договора.
+										</div>
+										<div class="left-guarantee__images">
+											<picture><source srcset="img/tabs/tab-four/01.webp" type="image/webp"><img class="left-guarantee__img" src="img/tabs/tab-four/01.webp" alt="#"></picture>
+											<picture><source srcset="img/tabs/tab-four/02.webp" type="image/webp"><img class="left-guarantee__img" src="img/tabs/tab-four/02.webp" alt="#"></picture>
+
+										</div>
+									</div>
+									<div class="tab-guarantee__rights rights-guarantee">
+										<div class="rights-guarantee__top">
+											<div class="rights-guarantee__column">
+												<h7 class="rights-guarantee__title">На материал</h7>
+												<div class="rights-guarantee__text">Не перекладываем вину на производителя и не
+													говорим «что привезли, тем и сделали». Отвечаем за качество материалов и
+													переделываем работу при обнаружении заводского брака.</div>
+											</div>
+											<div class="rights-guarantee__column">
+												<h7 class="rights-guarantee__title rights-guarantee__title--two">На материал</h7>
+												<div class="rights-guarantee__text">Не перекладываем вину на производителя и не
+													говорим «что привезли, тем и сделали». Отвечаем за качество материалов и
+													переделываем работу при обнаружении заводского брака.</div>
+											</div>
+											<div class="rights-guarantee__column">
+												<h7 class="rights-guarantee__title rights-guarantee__title--three">На материал</h7>
+												<div class="rights-guarantee__text">Не перекладываем вину на производителя и не
+													говорим «что привезли, тем и сделали». Отвечаем за качество материалов и
+													переделываем работу при обнаружении заводского брака.</div>
+											</div>
+										</div>
+										<p class="rights-guarantee__bottom">И конечно же, вы хотите чтобы плитка осталась целой, а
+											стиральная машинка не оказалась измазана краской. И вы абсолютно правы — мы гарантируем
+											сохранность вашего интерьера и аккуратное исполнение.</p>
+									</div>
+
+								</div>
+							</div>
+							<div class="tabs-company__body">
+								<div class="tabs-company__wrapper tab-results">
+									<div class="tab-results__left">
+										<picture><source srcset="img/tabs/five/01.webp" type="image/webp"><img class="tab-results__img" src="img/tabs/five/01.webp" alt="#"></picture>
+										<p>Каждый день мы помогаем жителям Санкт-Петербурга снова сделать ванные комнаты приятными
+											и любимыми. Мы превращаем долгий и затратный процесс замены ванны в простую и быструю
+											процедуру, доступную каждому.</p>
+									</div>
+									<div class="tab-results__rights">
+										<div class="tab-results__items">
+											<div class="tab-results__item">
+												<div class="tab-results__number">28 000</div>
+												<div class="tab-results__text">выполненных заказов</div>
+											</div>
+											<div class="tab-results__item">
+												<div class="tab-results__number">34%</div>
+												<div class="tab-results__text">обращений по рекомендациям</div>
+											</div>
+											<div class="tab-results__item">
+												<div class="tab-results__number">27</div>
+												<div class="tab-results__text">гостиниц сотрудничают с нами</div>
+											</div>
+										</div>
+										<div class="tab-results__colum">
+											<div class="tab-results__number-bg">14</div>
+											<div class="tab-results__text">
+												лет работы с <span>2009</span> года
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<div class="page__information information">
+				<div class="information__container">
+					<div class="information__column">
+						<h2 class="information__title">Хотите дешевле?<i class="icon-gift"></i></h2>
+						<div class="information__text">Воспользуйтесь одной из социальных программ, спецпредложений и акций,
+							чтобы сэкономить еще больше!</div>
+						<a href="#" class="information__button">Смотреть акции</a>
+					</div>
+					<div class="information__column ">
+						<h2 class="information__title information__title--two">Всегда на связи<i class="icon-phone"></i></h2>
+						<div class="information__text">
+							<p>Обращайтесь к нам по любому вопросу, используя удобный и привычный способ. Отправляйте
+								фотографии, если хотите узнать все до мельчайших деталей.</p>
+							<br>
+							<p>Телефон — <a href="tel:88129883285">8 (812) 988-32-85</a>
+								<picture><source srcset="img/information/01.webp" type="image/webp"><img src="img/information/01.jpg" alt="#"></picture> <picture><source srcset="img/information/02.webp" type="image/webp"><img src="img/information/02.jpg" alt="#"></picture>
+								Viber, Whatsapp —
+								<a href="tel:8952288328">8 (952) 288-32-8</a>
+								Электронная почта — <a href="mailto:rest-1001vanna@yandex.ru">rest-1001vanna@yandex.ru</a>
+								Связаться с нами через соцсети — vk id - <a href="mailto:vanna1001">vanna1001</a>
+
+							</p>
+						</div>
+
+					</div>
+					<div class="information__column">
+						<h2 class="information__title information__title--three">Бесплатно?<i class="icon-smile-o"></i></h2>
+						<div class="information__text">
+							<ul class="information__items">
+								<li class="information__list">консультация и онлайн осмотр</li>
+								<li class="information__list">зачистка первичной эмали</li>
+								<li class="information__list">установка пробки (при необходимости)</li>
+								<li class="information__list">демонтаж ПВХ сливной системы</li>
+
+							</ul>
+						</div>
+						<a href="#" class="information__button information__button--three">Смотреть прайс-лист</a>
+					</div>
+				</div>
+			</div>
+			<section class="page__performance performance">
+				<div class="performance__container">
+					<h2 class="performance__title">Кто мы и чем занимаемся?</h2>
+					<h3 class="performance__subtitle">«1001 Ванна» — компания, оказывающая услуги в сфере реставрации ванн и
+						ремонта сантехники в Санкт-Петербурге и ЛО, а именно:</h3>
+					<div class="performance__body">
+
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/01.webp" type="image/webp"><img src="img/performance/01.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/02.webp" type="image/webp"><img src="img/performance/02.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/03.webp" type="image/webp"><img src="img/performance/03.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/04.webp" type="image/webp"><img src="img/performance/04.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/05.webp" type="image/webp"><img src="img/performance/05.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/06.webp" type="image/webp"><img src="img/performance/06.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/07.webp" type="image/webp"><img src="img/performance/07.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+						<a href="#" class="performance__items">
+							<picture><source srcset="img/performance/08.webp" type="image/webp"><img src="img/performance/08.jpg" alt="#"></picture>
+							<div class="performance__text">Реставрация ванн жидким акрилом</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__material material">
+				<div class="material__container">
+					<h2 class="material__title">Материалы от производителя:</h2>
+					<div class="material__subtitle">Для реставрации ванн мы используем только, импортные материалы</div>
+					<div class="material__body">
+						<div class="material__column column-material">
+							<div class="column-material__images">
+								<picture><source srcset="img/material/01.webp" type="image/webp"><img class="column-material__img" src="img/material/01.png" alt="#"></picture>
+
+							</div>
+							<div class="column-material__items">
+								<div class="column-material__title">Финакрил Эконом</div>
+								<div class="column-material__subtitle">для ванн длиной 170 см</div>
+								<ul class="column-material__list">
+									<li class="column-material__link">высыхает 24 часа</li>
+									<li class="column-material__link">произв:Санкт-Петербург</li>
+									<li class="column-material__link">вес комплекта с отвердителем:3.6кг</li>
+								</ul>
+							</div>
+						</div>
+						<div class="material__column column-material">
+							<div class="column-material__images">
+								<picture><source srcset="img/material/01.webp" type="image/webp"><img class="column-material__img" src="img/material/01.png" alt="#"></picture>
+
+							</div>
+							<div class="column-material__items">
+								<div class="column-material__title">Финакрил Эконом</div>
+								<div class="column-material__subtitle">для ванн длиной 170 см</div>
+								<ul class="column-material__list">
+									<li class="column-material__link">высыхает 24 часа</li>
+									<li class="column-material__link">произв:Санкт-Петербург</li>
+									<li class="column-material__link">вес комплекта с отвердителем:3.6кг</li>
+								</ul>
+							</div>
+						</div>
+						<div class="material__column column-material">
+							<div class="column-material__images">
+								<picture><source srcset="img/material/01.webp" type="image/webp"><img class="column-material__img" src="img/material/01.png" alt="#"></picture>
+
+							</div>
+							<div class="column-material__items">
+								<div class="column-material__title">Финакрил Эконом</div>
+								<div class="column-material__subtitle">для ванн длиной 170 см</div>
+								<ul class="column-material__list">
+									<li class="column-material__link">высыхает 24 часа</li>
+									<li class="column-material__link">произв:Санкт-Петербург</li>
+									<li class="column-material__link">вес комплекта с отвердителем:3.6кг</li>
+								</ul>
+							</div>
+						</div>
+						<div class="material__column column-material">
+							<div class="column-material__images">
+								<picture><source srcset="img/material/01.webp" type="image/webp"><img class="column-material__img" src="img/material/01.png" alt="#"></picture>
+
+							</div>
+							<div class="column-material__items">
+								<div class="column-material__title">Финакрил Эконом</div>
+								<div class="column-material__subtitle">для ванн длиной 170 см</div>
+								<ul class="column-material__list">
+									<li class="column-material__link">высыхает 24 часа</li>
+									<li class="column-material__link">произв:Санкт-Петербург</li>
+									<li class="column-material__link">вес комплекта с отвердителем:3.6кг</li>
+								</ul>
+							</div>
+						</div>
+						<div class="material__column column-material">
+							<div class="column-material__images">
+								<picture><source srcset="img/material/01.webp" type="image/webp"><img class="column-material__img" src="img/material/01.png" alt="#"></picture>
+
+							</div>
+							<div class="column-material__items">
+								<div class="column-material__title">Финакрил Эконом</div>
+								<div class="column-material__subtitle">для ванн длиной 170 см</div>
+								<ul class="column-material__list">
+									<li class="column-material__link">высыхает 24 часа</li>
+									<li class="column-material__link">произв:Санкт-Петербург</li>
+									<li class="column-material__link">вес комплекта с отвердителем:3.6кг</li>
+								</ul>
+							</div>
+						</div>
+						<div class="material__column column-material">
+							<div class="column-material__images">
+								<picture><source srcset="img/material/01.webp" type="image/webp"><img class="column-material__img" src="img/material/01.png" alt="#"></picture>
+
+							</div>
+							<div class="column-material__items">
+								<div class="column-material__title">Финакрил Эконом</div>
+								<div class="column-material__subtitle">для ванн длиной 170 см</div>
+								<ul class="column-material__list">
+									<li class="column-material__link">высыхает 24 часа</li>
+									<li class="column-material__link">произв:Санкт-Петербург</li>
+									<li class="column-material__link">вес комплекта с отвердителем:3.6кг</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__way way">
+				<div class="way__container">
+					<h2 class="way__title">Основные <span>способы реставрации</span> ванн</h2>
+					<div data-tabs data-tabs-animate="1000" class="way">
+						<nav data-tabs-titles class="way__navigation">
+							<button type="button" class="way__title-tab _tab-active">
+								<picture><source srcset="img/tab-two/01.webp" type="image/webp"><img src="img/tab-two/01.jpg" alt="tab"></picture>
+							</button>
+							<button type="button" class="way__title-tab ">
+								<picture><source srcset="img/tab-two/02.webp" type="image/webp"><img src="img/tab-two/02.jpg" alt="tab"></picture>
+							</button>
+							<button type="button" class="way__title-tab">
+								<picture><source srcset="img/tab-two/03.webp" type="image/webp"><img src="img/tab-two/03.jpg" alt="tab"></picture>
+							</button>
+
+						</nav>
+						<div data-tabs-body class="way__content">
+							<div class="way__body">
+								<div class="way__wrapper">
+									<div class="way__left left-way">
+										<h3 class="left-way__title">Реставрация ванны эмалью</h3>
+										<p class="left-way__text">Эмалировка, или реставрация поверхности ванны эмалью – старинный
+											способ восстановления металлических ванн, сейчас используется в основном в арендуемых
+											квартирах Санкт-Петербурга для изделий, которыми не планируют пользоваться долго.</p>
+										<div class="left-way__subtitle">Минусы ручного окрашивания:</div>
+										<ul class="left-way__list">
+											<li class="left-way__link">ручная покраска кисточкой не позволит добиться идеальной
+												поверхности</li>
+											<li class="left-way__link">относительно короткий срок службы – около 5-ти лет</li>
+											<li class="left-way__link">склонность к впитыванию отложений из некачественной
+												водопроводной воды</li>
+											<li class="left-way__link">резкий неприятный запах в процессе покраски и застывания
+												эмалевого покрытия</li>
+										</ul>
+										<div class="left-way__subtitle">Преимущества:</div>
+
+										<ul class="left-way__list">
+											<li class="left-way__link">ручная покраска кисточкой не позволит добиться идеальной
+												поверхности</li>
+											<li class="left-way__link">относительно короткий срок службы – около 5-ти лет</li>
+
+										</ul>
+									</div>
+									<div class="way__right right-way">
+										<div class="right-way__items">
+											<h4 class="right-way__title">Технология эмалирования</h4>
+											<div class="right-way__text">После стандартной подготовки эмалевая поверхность
+												выкрашивается вручную флейцевой кистью или валиком, чаще всего в 2 слоя. Снятие
+												сифона не требуется.</div>
+										</div>
+										<div class="right-way__items">
+											<h4 class="right-way__title">Используемый материал</h4>
+											<div class="right-way__text">эмаль для ванн на эпоксидной основе</div>
+										</div>
+										<div class="right-way__items">
+											<h4 class="right-way__title">Торговые марки эмалей:</h4>
+											<div class="right-way__text">эпоксин 51с, epoxin 51c (Эколор)
+												экоэмалька (Экованна)
+												реафлекс 50, reaflex 50 (Tikkurila, Финляндия)
+												эмаль Tub&Tile Refinishing Kit (Rust-Oleum, США)
+												эмаль БЭП-5297В (Краски «БЭП»)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="way__body">
+								<div class="way__wrapper">
+									<div class="way__left left-way">
+										<h3 class="left-way__title">
+											Реставрация ванны вкладышем</h3>
+										<p class="left-way__text">Акриловый вкладыш (синонимы: акриловая вставка, вкладка в ванну)
+											– изделие из акрилового листа, повторяющее форму ванны, предназначен для установки по
+											технологии полифлекс. Достаточно популярный способ, отлично подходит для совсем
+											«убитых» изделий, с заводским браком или глубокими трещинами. Вкладыш не подходит для
+											реставрации акриловых и других неметаллических ванн</p>
+										<div class="left-way__subtitle">Недостатки:</div>
+										<ul class="left-way__list">
+											<li class="left-way__link">ограничения по весу, максимальная нагрузка в пределах
+												100-120 кг, прыжки противопоказаны</li>
+											<li class="left-way__link">прослойка монтажной пены со временем (в среднем за 5-7 лет)
+												разрушается, что приводит к растрескиванию вставки и необходимости замены</li>
+											<li class="left-way__link">для качественной установки все 4 бортика ванны должны быть
+												свободны, поэтому угловой кафель лучше отбивать</li>
+											<li class="left-way__link">производится только для 16-ти типов стандартных ванн</li>
+										</ul>
+										<div class="left-way__subtitle">Достоинства:</div>
+
+										<ul class="left-way__list">
+											<li class="left-way__link">
+												абсолютно идеальная поверхность</li>
+											<li class="left-way__link">возможна установка в ванны даже со сквозными дырами</li>
+											<li class="left-way__link">реальный срок эксплуатации – 7-10 лет</li>
+
+										</ul>
+									</div>
+									<div class="way__right right-way">
+										<div class="right-way__items">
+											<h4 class="right-way__title">Процесс установки</h4>
+											<div class="right-way__text">Технология полифлекс (Poliflex®) – после предварительного
+												замера и обработки установщик вклеивает вкладыш в ванну на монтажную полиуретановую
+												пену и санитарный герметик. Затем заполняет водой на сутки для принятия
+												окончательной формы.</div>
+										</div>
+										<div class="right-way__items">
+											<h4 class="right-way__title">Материал и способ изготовления</h4>
+											<div class="right-way__text">вставка из акрилового листа ПММА, соэкструдированного с
+												ABS (выполняет роль праймера), производится путем вакуумного термоформирования.
+											</div>
+										</div>
+										<div class="right-way__items">
+											<h4 class="right-way__title">Заводы производители:</h4>
+											<div class="right-way__text">Полисант (московский завод ИСКомп)
+												АтоллПласт (петербургский завод Атолл-Пласт)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="way__body">
+								<div class="way__wrapper">
+									<div class="way__left left-way">
+										<h3 class="left-way__title">
+											Реставрация ванны акрилом</h3>
+										<p class="left-way__text">аливная ванна (синонимы: реставрация, или заливка ванны жидким
+											акрилом) – современный, самый «продвинутый» и востребованный в Санкт-Петербурге способ
+											восстановления эмали. При правильной подготовке ванны, выдержанной температуре акрила и
+											соблюдении других нюансов налива – это самое долговечное покрытие на сегодняшний день.
+										</p>
+										<div class="left-way__subtitle">Минусы:</div>
+										<ul class="left-way__list">
+											<li class="left-way__link">не подходит для реконструкции бракованных кривых ванн,
+												потому
+												что повторяет их кривизну</li>
+											<li class="left-way__link">относительно легко царапается – так же, как любая акриловая
+												ванна</li>
+
+										</ul>
+										<div class="left-way__subtitle">Плюсы:</div>
+
+										<ul class="left-way__list">
+											<li class="left-way__link">
+												отсутствие резкого запаха при нанесении и высыхании</li>
+											<li class="left-way__link">химическая нейтральность</li>
+											<li class="left-way__link">
+												невысокая цена покрытия по сравнению со вставкой</li>
+											<li class="left-way__link">выдерживает любой вес, нежелательны только падения увесистых
+												металлических предметов</li>
+											<li class="left-way__link">
+												устойчивость к большинству негативных факторов – уф-излучению, ударам, моющим
+												средствам, ржавчине и кальцию в водопроводной воде</li>
+											<li class="left-way__link">подходит для изделий любых форм</li>
+											<li class="left-way__link">
+												не нужно отбивать плитку и демонтировать ванну</li>
+											<li class="left-way__link">реальный срок службы «правильного» покрытия – от 10 до 15
+												лет
+											</li>
+
+										</ul>
+									</div>
+									<div class="way__right right-way">
+										<div class="right-way__items">
+											<h4 class="right-way__title">Процесс восстановления акрилом</h4>
+											<div class="right-way__text">Технология Tub Repair® – после глубокой абразивной
+												зачистки и обезжиривания густая стакриловая масса наливается на ванну,
+												распределяется мастером и далее выравнивается самостоятельно. За счет способности к
+												самовыравниванию образует абсолютно ровный глянец без малейших следов кисти.</div>
+										</div>
+										<div class="right-way__items">
+											<h4 class="right-way__title">Названия материалов:</h4>
+											<div class="right-way__text">жидкий акрил, наливной акрил, стакрил</div>
+										</div>
+										<div class="right-way__items">
+											<h4 class="right-way__title">Торговые марки акриловых покрытий:</h4>
+											<div class="right-way__text">наливной акрил пластол (Plastall)
+												жидкий акрил экованна (Люкс, Шунгит, Ag+ c наночастицами серебра)
+												стакрил эколор (Stacril Ecolor)
+												финакрил, финнакрил (Finnacryl)
+												сипофлекс (Sipoflex)
+												ЯрЛиСОАТ 616 (НПК Ярли)</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="page__principle principle">
+				<picture><source srcset="img/principle/01.webp" type="image/webp"><img class="principle__img-bg" src="img/principle/01.webp" alt="#"></picture>
+				<div class="principle__container">
+					<div class="principle__content">
+						<h2 class="principle__title">Наши приницпы —
+							залог <span>безопасности вашей ванны</span></h2>
+						<ul class="principle__list">
+							<li class="principle__link icon-checkmark">Не бросаем в беде. Даже если вы случайно повредите
+								покрытие, не скажем
+								— разбирайтесь сами, а предложим удобное и недорогое решение.</li>
+							<li class="principle__link icon-checkmark">Не покупаем дешевые или поддельные материалы без
+								сертификатов качества.
+							</li>
+							<li class="principle__link icon-checkmark">Всегда тестируем. Ни один расходный материал не попадет
+								к вам домой,
+								просто потому что стоил дешевле — он испытан и признан оптимальным. Это лучшее из того что есть
+								на рынке.</li>
+							<li class="principle__link icon-checkmark">Не берем людей, работающих «спустя рукава». Только
+								опытные сотрудники,
+								соответствующие нашим стандартам качества.</li>
+
+						</ul>
+					</div>
+					<form class="principle__form-body" action="files/sendmail/sendmail.php" method="POST">
+						<h3 class="principle__form-title">Консультация</h3>
+						<input id="phone" type="text" name="form[email]" data-error="Error" placeholder="Ваш телефон*" class="principle__input input">
+						<div class="principle__avatar-body">
+							<div class="principle__avatar"><picture><source srcset="img/principle/avatar.webp" type="image/webp"><img src="img/principle/avatar.png" alt="#"></picture></div>
+							<div class="principle__name">
+								<p>на связи:</p>
+								<p>технолог Никита Максимов</p>
+							</div>
+						</div>
+						<button data-ripple type="submit" class="principle__button">Получить консультацию</button>
+					</form>
+				</div>
+			</section>
+			<section class="page__restore restore">
+				<div class="restore__container">
+					<div class="restore__body">
+						<div class="restore__content">
+							<h2 class="restore__title">Умеем восстанавливать сложные объекты в сжатые сроки</h2>
+							<div class="restore__text">
+								<p>Вот некоторые работы:</p><a href="#" class="restore__link">Что еще мы умеем?</a>
+							</div>
+							<ul class="restore__list">
+								<li class="restore__link icon-arrow">многокамерные раковины для санузлов компании ИКЕА</li>
+								<li class="restore__link icon-arrow">антикварная купель церкви Святых Петра и Павла по заказу
+									Петербургской
+									академии художеств</li>
+								<li class="restore__link icon-arrow">спецванна в неврологическом отделении городской больницы №2
+								</li>
+								<li class="restore__link icon-arrow">бассейны для тренировки детей в оздоровительном лагере</li>
+								<li class="restore__link icon-arrow">терапевтические гидромассажные ванны для спа-центра</li>
+							</ul>
+							<p class="restore__bottom">и еще 27 гостиниц, 5 заведений общепита, 2 больницы, более 28 тысяч ванн
+								в
+								квартирах города</p>
+						</div>
+						<div class="restore__slider swiper">
+							<div class="restore__wrapper swiper-wrapper">
+								<div class="restore__slide restore__slide-ibg swiper-slide">
+									<picture><source srcset="img/restore/1.webp" type="image/webp"><img src="img/restore/1.webp" alt="#"></picture>
+								</div>
+								<div class="restore__slide restore__slide-ibg swiper-slide">
+									<picture><source srcset="img/restore/2.webp" type="image/webp"><img src="img/restore/2.webp" alt="#"></picture>
+								</div>
+							</div>
+							<div class="autoplay-progress">
+								<svg viewBox="0 0 48 48">
+									<circle cx="24" cy="24" r="20"></circle>
+								</svg>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__questions questions">
+				<div class="questions__container">
+					<h2 class="questions__title">Часто задаваемые вопросы</h2>
+					<div data-spollers class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Можно ли восстановить оригинальное
+								покрытие чугунной ванны?</button>
+							<div class="spollers__body">Нет. Чугунные ванны в основном покрываются порошковой краской. Такой
+								метод подразумевает нанесение полимерных материалов и последующего нагрева в специальных печах
+								до высоких температур (порядка 200С°). В домашних условиях такое сделать проблематично, а в
+								промышленных дороже, чем купить новую.
+
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Можно ли восстановить оригинальное
+								покрытие чугунной ванны?</button>
+							<div class="spollers__body">Нет. Чугунные ванны в основном покрываются порошковой краской. Такой
+								метод подразумевает нанесение полимерных материалов и последующего нагрева в специальных печах
+								до высоких температур (порядка 200С°). В домашних условиях такое сделать проблематично, а в
+								промышленных дороже, чем купить новую.
+
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Какую ванну можно восстановить?</button>
+							<div class="spollers__body">Восстановлению подлежат: чугунные ванны, стальные, акриловые,
+								керамические, мраморные. За исключением тонкостенных, чрезмерно рифлёных или скользящих
+								поверхностей.
+
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller class="spollers__title">Можно ли реставрировать ванную
+								повторно?</button>
+							<div class="spollers__body">Да, можно. Реставрация ванной - это процесс, который позволяет
+								восстановить внешний вид и функциональность старой ванной путем нанесения нового покрытия или
+								установки акрилового вкладыша. Этот процесс можно повторять несколько раз, пока ванна не
+								достигнет своего срока службы.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<picture><source srcset="img/footer/01.webp" type="image/webp"><img class="footer__img" src="img/footer/01.webp" alt="#"></picture>
+				<h2 class="footer__title">1001 Ванна — сервис с человеческим лицом <picture><source srcset="img/footer/face.webp" type="image/webp"><img src="img/footer/face.webp" alt="#"></picture></h2>
+				<div class="footer__body">
+					<div class="footer__map"><picture><source srcset="img/footer/map.webp" type="image/webp"><img src="img/footer/map.webp" alt="map"></picture></div>
+					<div class="footer__information">
+						<div class="footer__address"><span>Адрес:</span>
+							194017, Санкт-Петербург, м. Удельная, пр. Тореза 102 к.4</div>
+						<div class="footer__time"><span>Время работы:</span>
+							с 9:00 до 21:00, без выходных</div>
+						<a href="mailto:rest-1001vanna@yandex.ru" class="footer__mail"><span>e-mail:</span>
+							rest-1001vanna@yandex.ru</a>
+						<a href="tel:88129883285" class="footer__phone"><span>Телефон:</span>
+							8 (812) 988-32-85</a>
+					</div>
+					<nav class="footer__menu">
+						<ul class="footer__list">
+							<li class="footer__link"><a href="#">Акции и скидки</a></li>
+							<li class="footer__link"><a href="#">Вопрос-ответ</a></li>
+							<li class="footer__link"><a href="#">Прайс-лист</a></li>
+							<li class="footer__link"><a href="#">Магазин</a></li>
+							<li class="footer__link"><a href="#">Блог</a></li>
+							<li class="footer__link"><a href="#">Фото</a></li>
+							<li class="footer__link"><a href="#">Отзывы</a></li>
+							<li class="footer__link"><a href="#">О компании</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__bottom">
+					Предложения, размещенные на сайте, не являются публичной офертой.
+					© 2009-2023 Служба реставрации ванн «1001 Ванна» <picture><source srcset="img/footer/logo.webp" type="image/webp"><img src="img/footer/logo.png" alt="#"></picture> . Публикация
+					информации с сайта без разрешения запрещена. Все права защищены.
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241008011023"></script>
+</body>
+
+</html>
